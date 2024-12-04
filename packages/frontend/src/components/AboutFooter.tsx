@@ -60,7 +60,7 @@ const AboutFooter: FC<{ minimal?: boolean; maxWidth?: number }> = ({
                         loading={healthState.isInitialLoading}
                         onClick={() => setIsOpen(true)}
                     >
-                        {!minimal && 'Lightdash - '}
+                        {!minimal && 'Yottix - '}
                         {healthState.data && `v${healthState.data.version}`}
                         {showUpdateBadge && (
                             <Badge
